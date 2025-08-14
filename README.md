@@ -44,10 +44,31 @@ PROCEDURE
 •	Verify the generated waveform using Tabulation and Model Waveform
 
 Model Waveform
+<img width="1920" height="1200" alt="Screenshot 2025-08-14 093330" src="https://github.com/user-attachments/assets/6b79e69c-4dd5-4600-b206-72b6c3b30e3d" />
 
-<img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
+
 
 Program
+```
+Am=4.8;
+Ac=9.6;
+fm=383;
+fc=3830;
+fs=38300;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t)
+subplot(3,1,2);
+plot(t,c);
+s1=(Ac+m).*cos(2*3.14*fc*t);
+s2=(Ac-m).*cos(2*3.14*fc*t);
+s=s1-s2;
+subplot(3,1,3);
+plot(t,s);
+```
+
 
 Output Graph
 
