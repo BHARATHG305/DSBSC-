@@ -72,7 +72,6 @@ plot(t,s);
 Output Graph
 <img width="1920" height="1200" alt="Screenshot 2025-08-14 092101" src="https://github.com/user-attachments/assets/0ed53dc6-1b4d-4f9f-a055-0ff66cdb6230" />
 
-
 Tablular Column
 
 
