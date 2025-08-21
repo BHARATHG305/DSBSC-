@@ -44,8 +44,7 @@ PROCEDURE
 •	Verify the generated waveform using Tabulation and Model Waveform
 
 Model Waveform
-<img width="1920" height="1200" alt="Screenshot 2025-08-14 093330" src="https://github.com/user-attachments/assets/6b79e69c-4dd5-4600-b206-72b6c3b30e3d" />
-
+<img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
 
 Program
@@ -71,6 +70,7 @@ plot(t,s);
 
 
 Output Graph
+<img width="1920" height="1200" alt="Screenshot 2025-08-14 092101" src="https://github.com/user-attachments/assets/0ed53dc6-1b4d-4f9f-a055-0ff66cdb6230" />
 
 
 Tablular Column
